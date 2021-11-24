@@ -9,12 +9,12 @@ function destructivelyPrependCat(name) {
     cats.unshift(name)
 }
 
-function destructivelyRemoveLastCat(name) {
-    cats.pop(name)
+function destructivelyRemoveLastCat() {
+    cats.pop()
 }
 
-function destructivelyRemoveFirstCat(name) {
-    cats.shift(name)
+function destructivelyRemoveFirstCat() {
+    cats.shift()
 }
 
 function appendCat(name) {
